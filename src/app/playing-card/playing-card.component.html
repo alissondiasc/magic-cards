@@ -1,0 +1,16 @@
+<div class="baralho">
+  <div class="carta">
+    <div class="naip-area naip-top">
+      <span [ngStyle]="{'color': color}" class="naip-number">{{ text }}</span>
+      <span [ngStyle]="{'color': color}" class="naip-sign">{{ type }}</span>
+    </div>
+    <div [ngStyle]="{'color': color}" class="naip-area naip-bottom">
+      <span class="naip-number">{{ text }}</span>
+      <span class="naip-sign">{{ type }}</span>
+    </div>
+    <div [ngStyle]="{'color': color}" class="carta-miolo miolo-1">
+      <span>{{ type }}</span>
+    </div>
+  </div>
+
+</div>

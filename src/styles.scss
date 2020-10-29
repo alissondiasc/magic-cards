@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Abel Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/Abel-Regular.ttf");
+}
+$font-family-base:"Abel Regular";
+body{
+  font-family: 'Abel Regular'!important;
+  font-weight: 400!important;
+}
+

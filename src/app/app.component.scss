@@ -1,0 +1,36 @@
+@import '~@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+p, h1, h3{
+  color: white;
+}
+.scroll-to-top{
+  position: fixed;
+
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+.buttonCenter{
+  width: 280px;
+  margin-left: 10px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  background-color: #FCC302;
+  font-size: 18px;
+}
+.row {
+  display: flex;
+  margin-left: 10%;
+}
+
+.column {
+  flex: 100%;
+}
+.main{
+  background-color: #291c3a;
+}
+
+
+
+

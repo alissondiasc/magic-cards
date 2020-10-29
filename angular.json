@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "magicCads"
+    }
+  },
+  "defaultProject": "magicCads",
+  "cli": {
+    "analytics": "e8ab5b0a-b8e5-4909-be32-e24f02aa1b2c"
+  }
 }
